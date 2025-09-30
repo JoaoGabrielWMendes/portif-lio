@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    margin: 0;
+    background-color: #e0e0e0;
+}
+
+.container {
+    width: 600px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    gap: 16px;
+    align-items: flex-end;
+}
+
+.buttons{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+.apresentacao{
+    text-align: center;
+}
+
+.linha{
+    border-top: 2px solid #ccc;
+    margin: 20px 0;
+}
+
+.contatos{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.conheca{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #28A745;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
