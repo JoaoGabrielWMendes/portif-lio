@@ -17,6 +17,38 @@ body {
     align-items: center;
 }
 
+.nome{
+    cursor: pointer;
+}
+
+.sobre{
+    cursor: pointer;
+}
+
+.formAcad{
+    cursor: pointer;
+}
+
+.Exp{
+    cursor: pointer;
+}
+
+.Proj{
+    cursor: pointer;
+}
+
+.Habili{
+    cursor: pointer;
+}
+
+.Curr{
+    cursor: pointer;
+}
+
+.Cont{
+    cursor: pointer;
+}
+
 .container {
     width: 80%;
     font-family: Arial, sans-serif;
@@ -70,18 +102,8 @@ body {
     justify-content: center;
 }
 
-.gmail{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 100%;
-    width: 30px;
-    height: 30px;
-    background-color: green;
-}
-
 .github{
+    cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -93,6 +115,7 @@ body {
 }
 
 .linkedin{
+    cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -114,6 +137,7 @@ body {
 }
 
 .contatos{
+    cursor: pointer;
     margin-top: 20px;
     padding: 10px;
     background-color: #007BFF;
@@ -124,6 +148,7 @@ body {
 }
 
 .conheca{
+    cursor: pointer;
     margin-top: 20px;
     padding: 10px;
     background-color: #28A745;
@@ -133,7 +158,7 @@ body {
     display: inline-block;
 }
 
-.sobre{
+.sobreMim{
     padding: 0px 20px;
 }
 
