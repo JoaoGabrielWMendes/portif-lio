@@ -6,25 +6,53 @@ body {
     background-color: #e0e0e0;
 }
 
-.container {
-    width: 600px;
-    padding: 20px;
+.containerBase{
+    width: 100%;
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    
-}
-
-.cabecalho {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
 }
 
+.container {
+    width: 80%;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cabecalho {
+    position: sticky;
+    top: 0;
+    background-color: antiquewhite;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cabecalho > *:first-child {
+    margin-left: 24px;  /* afasta da borda esquerda */
+}
+
+.cabecalho > *:last-child {
+    margin-right: 24px; /* afasta da borda direita */
+}
+
+.bemVindo{
+    width: 100%;
+    height: 1000px;
+    background-image: url('https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTBuaWZpaDQ0MHZ2bGk0eTVkNzN5dHRzbzVha2JzNmtiemZxcjNzOSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/xUOxeSTrDP4vsF2TXq/giphy.gif');
+    align-content: center;
+}
 .menu{
     display: flex;
-    gap: 16px;
+    gap: 24px;
     align-items: flex-end;
 }
 
@@ -35,8 +63,49 @@ body {
     justify-content: center;
 }
 
+.links{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+.gmail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    background-color: green;
+}
+
+.github{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+}
+
+.linkedin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+}
+
 .apresentacao{
     text-align: center;
+    padding: 0px 300px;
 }
 
 .linha{
@@ -62,4 +131,84 @@ body {
     border-radius: 5px;
     text-decoration: none;
     display: inline-block;
+}
+
+.sobre{
+    padding: 0px 20px;
+}
+
+.formacao{
+    padding: 0px 20px 10px 20px;
+}
+
+.certificados{
+    display: flex;
+    gap : 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.bacharelado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 240px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+
+.escola{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 240px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+
+.escolaDeIngles{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 240px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+
+.linguagens{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.python{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #306998;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.java{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f89820;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.html{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #e34c26;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
