@@ -1,3 +1,17 @@
+h2{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+p{
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+li{
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
 body {
     display: flex;
     justify-content: center;
@@ -161,6 +175,8 @@ body {
 }
 
 .certificados, .linguagens {
+  margin-top: 50px;
+  margin-bottom: 50px;
   display: flex;
   gap: 20px;
   justify-content: center;
@@ -168,11 +184,23 @@ body {
 }
 
 .sobreMim{
-    padding: 0px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 150px;
+  padding: 0px 20px;
+}
+
+.fotoPerfil {
+  width: 425px;
+  height: 425px;
+  border-radius: 100%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  align-self: center;
 }
 
 .formacao{
-    padding: 0px 20px 10px 20px;
+  padding: 0px 20px 10px 20px;
 }
 
 .bacharelado, .escola, .escolaDeIngles, .python, .java, .html {
