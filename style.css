@@ -43,10 +43,12 @@ body {
 .Habili,
 .Curr,
 .Cont{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  border-bottom: 5px solid transparent; /* linha invisível por padrão */
+  transition: border-color 0.3s ease;
 }
 
 
@@ -58,9 +60,19 @@ body {
 .Habili:hover,
 .Curr:hover,
 .Cont:hover {
-  background-color: #007BFF;   
-  cursor: pointer;          
-  transition: background-color 0.3s ease; 
+  cursor: pointer;
+}
+
+.sobre:hover,
+.formAcad:hover,
+.Exp:hover,
+.Proj:hover,
+.Habili:hover,
+.Curr:hover,
+.Cont:hover {  
+  border-bottom-color: white;   
+  cursor: pointer;
+  transition: border-color 0.3s ease;
 }
 
 .container {

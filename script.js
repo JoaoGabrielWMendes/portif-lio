@@ -48,3 +48,10 @@ document.getElementsByClassName("Curr")[0].addEventListener("click", function ()
 document.getElementsByClassName("Cont")[0].addEventListener("click", function () {
   scrollToSection("contato");
 });
+
+document.getElementsByClassName("botaoCv")[0].addEventListener("click", function () {
+  const link = document.createElement('a'); 
+  link.href = 'assets/curriculoJGWM.pdf'; 
+  link.download = 'Curriculo_JoaoGabriel.pdf'; 
+  link.click(); 
+  });
