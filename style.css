@@ -63,6 +63,12 @@ body {
   cursor: pointer;
 }
 
+.icone-site {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
 .sobre:hover,
 .formAcad:hover,
 .Exp:hover,
