@@ -47,7 +47,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100%;
-  border-bottom: 5px solid transparent; /* linha invisível por padrão */
+  border-bottom: 5px solid transparent; 
   transition: border-color 0.3s ease;
 }
 
@@ -120,7 +120,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url('https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTBuaWZpaDQ0MHZ2bGk0eTVkNzN5dHRzbzVha2JzNmtiemZxcjNzOSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/xUOxeSTrDP4vsF2TXq/giphy.gif');
+    background-image: url('https://github.com/JoaoGabrielWMendes/portif-lio/blob/main/assets/wallpaper-principal.gif');
     text-align: center;
 }
 
