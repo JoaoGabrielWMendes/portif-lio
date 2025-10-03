@@ -11,7 +11,7 @@ function scrollToSection(className, offset = 80) {
 }
 
 document.getElementsByClassName("conheca")[0].addEventListener("click", function () {
-  scrollToSection("sobreMim");
+  scrollToSection("sobre-mim");
 });
 
 document.getElementsByClassName("contatos")[0].addEventListener("click", function () {
@@ -19,37 +19,37 @@ document.getElementsByClassName("contatos")[0].addEventListener("click", functio
 });
 
 document.getElementsByClassName("nome")[0].addEventListener("click", function () {
-  scrollToSection("bemVindo");
+  scrollToSection("bem-vindo");
 });
 document.getElementsByClassName("sobre")[0].addEventListener("click", function () {
-  scrollToSection("sobreMim");
+  scrollToSection("sobre-mim");
 });
 
-document.getElementsByClassName("formAcad")[0].addEventListener("click", function () {
+document.getElementsByClassName("form-acad")[0].addEventListener("click", function () {
   scrollToSection("formacao");
 });
 
-document.getElementsByClassName("Exp")[0].addEventListener("click", function () {
+document.getElementsByClassName("exp")[0].addEventListener("click", function () {
   scrollToSection("experiencia");
 });
 
-document.getElementsByClassName("Proj")[0].addEventListener("click", function () {
+document.getElementsByClassName("proj")[0].addEventListener("click", function () {
   scrollToSection("projetos");
 });
 
-document.getElementsByClassName("Habili")[0].addEventListener("click", function () {
+document.getElementsByClassName("habili")[0].addEventListener("click", function () {
   scrollToSection("habilidades");
 });
 
-document.getElementsByClassName("Curr")[0].addEventListener("click", function () {
+document.getElementsByClassName("curr")[0].addEventListener("click", function () {
   scrollToSection("cv");
 });
 
-document.getElementsByClassName("Cont")[0].addEventListener("click", function () {
+document.getElementsByClassName("cont")[0].addEventListener("click", function () {
   scrollToSection("contato");
 });
 
-document.getElementsByClassName("botaoCv")[0].addEventListener("click", function () {
+document.getElementsByClassName("botao-cv")[0].addEventListener("click", function () {
   const link = document.createElement('a'); 
   link.href = 'assets/curriculoJGWM.pdf'; 
   link.download = 'Curriculo_JoaoGabriel.pdf'; 
