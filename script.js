@@ -51,7 +51,7 @@ document.getElementsByClassName("cont")[0].addEventListener("click", function ()
 
 document.getElementsByClassName("botao-cv")[0].addEventListener("click", function () {
   const link = document.createElement('a'); 
-  link.href = 'assets/curriculoJGWM.pdf'; 
-  link.download = 'Curriculo_JoaoGabriel.pdf'; 
+  link.href = 'assets/Currículo João Gabriel Winck Mendes.pdf'; 
+  link.download = 'Curriculo_Joao_Gabriel.pdf'; 
   link.click(); 
   });
