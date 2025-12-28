@@ -120,6 +120,7 @@ body {
 }
 
 .bem-vindo{
+  min-height: 100vh;
   width: 100%;
   height: 1000px;
   display: flex;
@@ -144,11 +145,12 @@ body {
 
 .menu{
     display: flex;
-    gap: 24px;
     align-items: center;
     justify-content: center;
     height: 100%;
+    gap: clamp(5px, 15px, 20px);
 }
+
 
 .buttons{
     display: flex;
@@ -185,7 +187,6 @@ body {
 }
 
 .links{
-  gap: 20px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -217,8 +218,7 @@ body {
 .sobre-mim{
   display: flex;
   flex-direction: row;
-  gap: 150px;
-  padding: 0px 20px;
+  gap: clamp(5px, 15px, 20px);
 }
 
 .foto-perfil {
