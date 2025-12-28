@@ -19,9 +19,6 @@ li{
 }
 
 body {
-  display: flex;
-  justify-content: center;
-  height: 100%;
   margin: 0;
   font-family: 'Arial', sans-serif;
   background-image: url('https://github.com/JoaoGabrielWMendes/portif-lio/blob/main/assets/fundo-base.gif?raw=true');
@@ -87,7 +84,7 @@ body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
   max-width: 1200px;
-  margin: 50px 0;
+  margin: 50px auto;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -362,4 +359,21 @@ body {
 
 .outras-formas-contato a {
   color: #6c63ff;
+}
+
+@media (max-width: 768px) {
+
+  .container {
+    width: 100%;
+    margin: 0;
+  }
+
+  .bem-vindo {
+    width: 100%;
+    padding: 60px 20px;
+  }
+
+  .container-base {
+    width: 100%;
+  }
 }
